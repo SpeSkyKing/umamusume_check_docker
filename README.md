@@ -1,4 +1,4 @@
-0.環境構築手順
+環境構築手順
 1. mkdir docker
 2. mkdir src
 3. docker内でこのリポジトリをクローン
