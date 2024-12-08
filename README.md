@@ -1,4 +1,9 @@
 環境構築手順
+〇開発環境の場合
+local-docker-compose.yml →　docker-compose.yml
+〇EC2等で他DBを使う場合
+product-docker-compose.yml →　docker-compose.yml
+
 1. mkdir docker
 2. mkdir src
 3. docker内でこのリポジトリをクローン
