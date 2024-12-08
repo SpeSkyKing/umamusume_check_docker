@@ -20,8 +20,8 @@
 + DB_CONNECTION=mysql
 + DB_HOST ローカルの場合はdb その他は適切に 
 + DB_PORT ローカルの場合は3306 その他は適切に 
-+ DB_DATABASE ローカルの場合は ymlファイルのMYSQL_DATABASE
-+ DB_USERNAME ローカルの場合は ymlファイルのMYSQL_USER
-+ DB_PASSWORD ローカルの場合は ymlファイルのMYSQL_PASSWORD
++ DB_DATABASE ローカルの場合は ymlファイルのMYSQL_DATABASE その他は適切に 
++ DB_USERNAME ローカルの場合は ymlファイルのMYSQL_USER その他は適切に 
++ DB_PASSWORD ローカルの場合は ymlファイルのMYSQL_PASSWORD その他は適切に 
 + ----------------------------------
   
