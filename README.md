@@ -12,10 +12,8 @@
 5. dockerフォルダで docker-compose up -d
 6. docker exec -it docker-app-1 bashでphpコンテナへ入る
 7. composer installを実行
-8. php artisan key:generateを実行
-9. cp .env.example .env
-10. php artisan migrateを実行
-11. .envファイル内の以下項目を変更
+8. . cp .env.example .env
+9. . .envファイル内の以下項目を変更
 + ----------------------------------
 + DB_CONNECTION=mysql
 + DB_HOST ローカルの場合はdb その他は適切に 
@@ -24,4 +22,6 @@
 + DB_USERNAME ローカルの場合は ymlファイルのMYSQL_USER その他は適切に 
 + DB_PASSWORD ローカルの場合は ymlファイルのMYSQL_PASSWORD その他は適切に 
 + ----------------------------------
+10. php artisan migrateを実行
+11. php artisan key:generateを実行
   
